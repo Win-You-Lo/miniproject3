@@ -1,0 +1,11 @@
+name = input()
+skill = input()
+print(f'My nickname is "{name}".')
+ch = skill.split()
+lens = len(ch)
+print("I'm good at "),
+for i in skill: 
+    print(f'{i}, '),
+print('etc.\n')
+
+
